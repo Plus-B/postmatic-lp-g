@@ -18,6 +18,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "clean-html": "node remove-mobirise-img.js",
+    "clean": "npm run clean-all-html -- ./docs",
     "format": "prettier --write docs"
   },
   "devDependencies": {
