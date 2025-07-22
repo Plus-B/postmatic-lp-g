@@ -1,0 +1,26 @@
+{
+  "name": "postmatic-lp-g",
+  "version": "1.0.0",
+  "description": "Postmatic LP general repository",
+  "homepage": "https://github.com/Plus-B/postmatic-lp-g#readme",
+  "bugs": {
+    "url": "https://github.com/Plus-B/postmatic-lp-g/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plus-B/postmatic-lp-g.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "format": "prettier --write docs"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
+}
