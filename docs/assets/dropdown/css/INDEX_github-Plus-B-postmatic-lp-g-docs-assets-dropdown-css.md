@@ -17,5 +17,3 @@ aliases:
 └── style.css
 
 1 directory, 2 files
-
-

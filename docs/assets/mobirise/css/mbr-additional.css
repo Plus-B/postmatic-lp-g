@@ -20,7 +20,7 @@ body {
   font-family: Inter Tight;
 }
 .display-1 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 5rem;
   line-height: 1;
 }
@@ -28,7 +28,7 @@ body {
   font-size: 6.25rem;
 }
 .display-2 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 4rem;
   line-height: 1;
 }
@@ -36,7 +36,7 @@ body {
   font-size: 5rem;
 }
 .display-4 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.4rem;
   line-height: 1.5;
 }
@@ -44,7 +44,7 @@ body {
   font-size: 1.75rem;
 }
 .display-5 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -52,7 +52,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
 }
@@ -72,55 +72,75 @@ body {
 @media (max-width: 768px) {
   .display-1 {
     font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.1 * (2.4rem + (5 - 2.4) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-2 {
     font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.3 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-4 {
     font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-5 {
     font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
   .display-7 {
     font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc(
+      1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)))
+    );
   }
 }
 @media (min-width: 992px) and (max-width: 1400px) {
   .display-1 {
     font-size: 3.5rem;
-    font-size: calc( 2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.1 * (2.4rem + (5 - 2.4) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-2 {
     font-size: 3.2rem;
-    font-size: calc( 2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.3 * (2.05rem + (4 - 2.05) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-4 {
     font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-5 {
     font-size: 1.6rem;
-    font-size: calc( 1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.4 * (1.35rem + (2 - 1.35) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
   .display-7 {
     font-size: 1.12rem;
-    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
-    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62))));
+    font-size: calc(1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)));
+    line-height: calc(
+      1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 62rem) / (87 - 62)))
+    );
   }
 }
 /* Buttons */
@@ -568,7 +588,9 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(
+    .navbar-caption
+  ) {
   position: relative;
   background-image: transparent;
   background-size: 10000px 2px;
@@ -576,7 +598,9 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-position: 0px 1.2em;
   background-position: -10000px 1.2em;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(
+    .navbar-caption
+  ):hover {
   transition: background-position 2s ease-in-out;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
@@ -645,7 +669,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -656,11 +680,14 @@ a:hover {
 }
 .form-control:hover,
 .form-control:focus {
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px 0px, rgba(0, 0, 0, 0.07) 0px 1px 3px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
+  box-shadow:
+    rgba(0, 0, 0, 0.07) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.07) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;
   border-color: #9fe870 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: "Inter Tight", sans-serif;
   font-size: 1.4rem;
   line-height: 1.3;
   font-weight: 400;
@@ -711,7 +738,11 @@ blockquote {
 }
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+.xdsoft_datetimepicker
+  .xdsoft_timepicker
+  .xdsoft_time_box
+  > div
+  > div.xdsoft_current {
   color: #000000 !important;
   background-color: #9fe870 !important;
   box-shadow: none !important;
@@ -735,7 +766,7 @@ blockquote {
 }
 iframe.lazy-placeholder,
 .lazy-placeholder:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 200px;
   height: 200px;
@@ -932,7 +963,10 @@ a {
 .cid-uQYx1nJNBL .navbar.collapsed .dropdown-menu .dropdown-item:after {
   right: auto;
 }
-.cid-uQYx1nJNBL .navbar.collapsed .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+.cid-uQYx1nJNBL
+  .navbar.collapsed
+  .dropdown-menu
+  .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
   margin-left: 0.5rem;
   margin-top: 0.2rem;
   border-top: 0.35em solid;
@@ -967,7 +1001,10 @@ a {
   .cid-uQYx1nJNBL .navbar .dropdown-menu .dropdown-item:after {
     right: auto;
   }
-  .cid-uQYx1nJNBL .navbar .dropdown-menu .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
+  .cid-uQYx1nJNBL
+    .navbar
+    .dropdown-menu
+    .dropdown-toggle[data-toggle="dropdown-submenu"]:after {
     margin-left: 0.5rem;
     margin-top: 0.2rem;
     border-top: 0.35em solid;
@@ -1049,7 +1086,11 @@ a {
 .cid-uQYx1nJNBL .navbar.navbar-expand-lg .dropdown .dropdown-menu {
   background: #ffffff;
 }
-.cid-uQYx1nJNBL .navbar.navbar-expand-lg .dropdown .dropdown-menu .dropdown-submenu {
+.cid-uQYx1nJNBL
+  .navbar.navbar-expand-lg
+  .dropdown
+  .dropdown-menu
+  .dropdown-submenu {
   margin: 0;
   left: 100%;
 }
@@ -1402,7 +1443,7 @@ a {
 }
 .cid-uPYko0DcNk .mbr-iconfont {
   font-size: 1.2rem !important;
-  font-family: 'Moririse2' !important;
+  font-family: "Moririse2" !important;
   color: white;
   transition: all 0.3s;
   transform: rotate(180deg);
@@ -1539,9 +1580,99 @@ a {
   color: #000000;
   text-align: left;
 }
-.cid-uQYTRqtDZS {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #1b224b;
+.cid-uREOvpjFyK {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   overflow: hidden;
+  background-color: #d1d1f7;
+}
+.cid-uREOvpjFyK .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uREOvpjFyK .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uREOvpjFyK .container-fluid {
+  padding: 0 40px;
+}
+@media (max-width: 992px) {
+  .cid-uREOvpjFyK .container-fluid {
+    padding: 0 28px;
+  }
+}
+@media (max-width: 992px) {
+  .cid-uREOvpjFyK .container {
+    padding: 0 28px;
+  }
+}
+.cid-uREOvpjFyK .content-wrapper .logo-wrapper {
+  margin-bottom: 35px;
+}
+.cid-uREOvpjFyK .content-wrapper .logo-wrapper img {
+  width: 148px;
+  height: 148px;
+  object-fit: cover;
+  border-radius: 100% !important;
+  display: inline-flex;
+}
+.cid-uREOvpjFyK .content-wrapper .mbr-section-title {
+  margin-bottom: 30px;
+}
+.cid-uREOvpjFyK .content-wrapper .contact-wrap {
+  margin-bottom: 35px;
+}
+.cid-uREOvpjFyK .content-wrapper .contact-wrap .link-wrap {
+  display: block;
+}
+.cid-uREOvpjFyK
+  .content-wrapper
+  .contact-wrap
+  .link-wrap:hover
+  .mbr-cont::after,
+.cid-uREOvpjFyK
+  .content-wrapper
+  .contact-wrap
+  .link-wrap:focus
+  .mbr-cont::after {
+  width: 100%;
+}
+.cid-uREOvpjFyK .content-wrapper .contact-wrap .link-wrap .mbr-cont {
+  margin: 10px 0;
+  position: relative;
+  display: inline-flex;
+}
+.cid-uREOvpjFyK .content-wrapper .contact-wrap .link-wrap .mbr-cont::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  transition: all 0.3s ease-in-out;
+  background-color: #9fe870;
+}
+.cid-uREOvpjFyK .content-wrapper .mbr-copy {
+  margin-bottom: 0;
+}
+.cid-uREOvpjFyK .mbr-section-title {
+  color: #000000;
+}
+.cid-uREOvpjFyK .mbr-cont,
+.cid-uREOvpjFyK .link-wrap {
+  color: #000000;
+  text-align: center;
+}
+.cid-uREOvpjFyK .mbr-copy {
+  color: #000000;
+  text-align: center;
+}
+.cid-uREOvpjFyK .mbr-section-title,
+.cid-uREOvpjFyK .logo-wrapper {
+  text-align: center;
 }

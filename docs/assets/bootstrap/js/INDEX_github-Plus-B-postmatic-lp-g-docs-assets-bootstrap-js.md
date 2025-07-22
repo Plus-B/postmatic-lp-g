@@ -17,5 +17,3 @@ aliases:
 └── bootstrap.bundle.min.js
 
 1 directory, 2 files
-
-

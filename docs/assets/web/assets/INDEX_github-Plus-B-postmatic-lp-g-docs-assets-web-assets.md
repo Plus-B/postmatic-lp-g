@@ -17,5 +17,3 @@ aliases:
 └── mobirise-icons2
 
 2 directories, 1 file
-
-

@@ -21,5 +21,3 @@ aliases:
 └── socicon.woff2
 
 1 directory, 6 files
-
-

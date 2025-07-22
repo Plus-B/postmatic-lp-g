@@ -18,5 +18,3 @@ aliases:
 └── fonts
 
 3 directories, 1 file
-
-
