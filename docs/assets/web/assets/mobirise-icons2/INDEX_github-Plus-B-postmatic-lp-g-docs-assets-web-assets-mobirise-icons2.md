@@ -21,5 +21,3 @@ aliases:
 └── mobirise2.woff
 
 1 directory, 6 files
-
-

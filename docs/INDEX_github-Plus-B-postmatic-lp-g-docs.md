@@ -19,5 +19,3 @@ aliases:
 └── project.mobirise
 
 2 directories, 3 files
-
-

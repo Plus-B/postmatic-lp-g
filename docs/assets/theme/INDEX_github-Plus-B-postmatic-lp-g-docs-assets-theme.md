@@ -18,5 +18,3 @@ aliases:
 └── js
 
 3 directories, 1 file
-
-
