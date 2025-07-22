@@ -18,8 +18,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "clean": "node ./scripts/remove-mobirise-img.js ./docs",
-    "format": "prettier --write docs"
+    "format": "prettier --write docs",
+    "clean": "npm run format && node ./scripts/remove-mobirise-img.js ./docs"
   },
   "devDependencies": {
     "prettier": "^3.5.3"
